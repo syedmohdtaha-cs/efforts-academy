@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Efforts Academy</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+918237550003"><strong>CALL</strong> +91 8237550003</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item @@courses">
+              <a class="nav-link" href="courses.html">COURSES</a>
+            </li>
+           
+      
+           
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Register</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login">
+                    <form action="#" class="row">
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name">
+                        </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">SIGN UP</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Login</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="#" class="row">
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name">
+                    </div>
+                    <div class="col-12">
+                        <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">LOGIN</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/page-title.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="@@page-link">About Us</a></li>
+          <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
+        </ul>
+        <p class="text-lighten">Efforts Academy is working on preparing the students to offer intense and result oriented training programs for IIT-JEE, NEET, Pre-Secondary Scholarship (PSS), CBSE and State Board Examinations.
+          Efforts Academy provides excellent coaching for the students from Grade 8 to Grade 12. As a responsible social institute, Efforts Academy takes its role of building tomorrow's leaders efficiently. Every child will be practicing in a dynamic and challenging environment. We aim to grow beyond leaps and bounds as an institution of par excellence in the field of coaching to make the children to attain scholastic excellence and to face the competition without fear.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- about -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <!-- <img class="img-fluid w-100 mb-4" src="images/about/about-page.jpg" alt="about image"> -->
+        <h2 class="section-title">Our Mission</h2>
+        <p>Efforts Academy’s mission is to help people regardless of ability, age or background to realise their goals for the future through the support of the highest quality tutoring and coaching services in Chiplun. We aim to help all students achieve their potential by giving them encouragement, understanding and individualized attention. We aim to solve unsolved problems distinctly in an innovative manner.
+          We strive to raise our students’ aspiration and achievement levels by infusing them with enthusiasm for the subject, self-confidence, motivation and direction.
+          Our mission is to promote the fundamentals of any subject, with an emphasis on participation, education, involvement, and fun.</p>
+          <h2 class="section-title">Our Vision</h2>
+          <p>The Efforts Academy, based in Chiplun seeks to enhance the academic skills and personal development of Students in all the aspects of their life by teaching them in realistic approach to develop excellence and to produce best results.</p>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about -->
+
+<!-- funfacts -->
+<section class="section-sm bg-primary">
+  <div class="container">
+    <div class="row">
+      <!-- funfacts item -->
+      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+        <div class="text-center">
+          <h2 class="count text-white" data-count="60">0</h2>
+          <h5 class="text-white">TEACHERS</h5>
+        </div>
+      </div>
+      <!-- funfacts item -->
+      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+        <div class="text-center">
+          <h2 class="count text-white" data-count="50">0</h2>
+          <h5 class="text-white">COURSES</h5>
+        </div>
+      </div>
+      <!-- funfacts item -->
+      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+        <div class="text-center">
+          <h2 class="count text-white" data-count="1000">0</h2>
+          <h5 class="text-white">STUDENTS</h5>
+        </div>
+      </div>
+      <!-- funfacts item -->
+      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+        <div class="text-center">
+          <h2 class="count text-white" data-count="3737">0</h2>
+          <h5 class="text-white">SATISFIED CLIENT</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /funfacts -->
+
+<!-- success story -->
+<section class="section bg-cover" data-background="images/backgrounds/success-story.jpg">
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-lg-6 col-sm-4 position-relative success-video">
+        <a class="play-btn venobox" href="https://youtu.be/nA1Aqp0sPQo" data-vbtype="video">
+          <i class="ti-control-play"></i>
+        </a>
+      </div> -->
+      <div class="col-lg-12 col-sm-8">
+        <div class="bg-white p-5">
+          <h2 class="section-title">From Director's Desk</h2>
+          <p>
+            Greetings from Efforts Academy!<br><br>
+            I, Kashif Kazmi, Managing Director of Efforts Academy, extend my sincere gratitude to the people of Chiplun for their full-hearted support in promoting our dream venture.
+            I have always been fascinated by the world of learning - the reason being, some wonderful teachers who instilled the love for the subject in me. We started Efforts Academy with a passion for conceptual learning. We hope to share our knowledge with the scores of students who just need that one little push to awaken them to the beauty of the subjects and make them thirst for more.
+            Why Efforts Academy??? Is that a question you want to ask me? To me, each child is a golden goose - capable of laying golden eggs. Our children are capable of meeting higher goals. Unfortunately, the lifestyle led in the rural areas, the limited resources available in comparison with the international scenario and the limited exposure have led to a great big wall that is slowly killing all the enthusiasm and talent that exists in our children.
+            Is that the reason why we have hardly any student qualifying for the IITs and AIIMS? Maybe!!! If you look at the study pattern of the very few who have qualified, you will find that they are exceptionally dedicated with regular and disciplined study habits. Unfortunately, not all children can do that on their own. We need to give the child the correct mental nourishment and the appropriate stimuli. We need to set a pace that is distinct for each child, leading him or her on to higher challenges and goals.
+            We, at Efforts Academy are ready to set the pace for your child and lead him or her on to discover the talent that is within. A promise taken is a promise delivered. Once we take your child under our wings, we will work with your child and with you, to help your child achieve higher goals. We don't promise miracles. We promise hard work and the beautiful golden egg that will result from the hard work. We promise singular and dedicated approach to coaching and guiding your child.
+            I have never been one to turn away from a challenge. We are ready to face the challenge. Are you? Do come over to Efforts Academy for a little chat, with prior appointment. I will be ready to answer all your queries. You are welcome to interact with our staff.
+            So, take that first step, Enroll your child at Efforts Academy. Then watch their progress yourself.
+            Pay us a visit. Trust me, you will not be disappointed. We deliver what we promise.<br>
+            Hope to see you soon! Take care!!<br><br>
+            Regards<br>
+            <b>Kashif Kazmi</b></p>   </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /success story -->
+
+
+        <!-- teacher -->
+       
+  <!-- /teachers -->
+
+<!-- footer -->
+<footer>
+  <!-- newsletter -->
+  <!-- footer content -->
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8  mb-lg-0">
+          <!-- logo -->
+          <a class="logo-footer" href="index.html"><img class="img-fluid" src="images/logo.png" alt="logo"></a>
+          <!-- <ul class="list-unstyled">
+            <li class="mb-2">23621 15 Mile Rd #C104, Clinton MI, 48035, New York, USA</li>
+            <li class="mb-2">+1 (2) 345 6789</li>
+            <li class="mb-2">+1 (2) 345 6789</li>
+            <li class="mb-2">contact@yourdomain.com</li>
+          </ul> -->
+        </div>
+        <!-- company -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-md-0">
+          <h4 class="text-white"><a class="text-primary" href="about.html">About Us</a></h4>
+          <!-- <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
+            <li class="mb-3"><a class="text-color" href="teacher.html">Our Teacher</a></li>
+            <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
+            <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
+          </ul> -->
+        </div>
+        <!-- links -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-md-0">
+          <h4 class="text-white "><a class="text-primary" href="course-single.html">Foundation Course For NEET and JEE</a></h4>
+          <!-- <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="courses.html">Courses</a></li>
+            <li class="mb-3"><a class="text-color" href="event.html">Events</a></li>
+            <li class="mb-3"><a class="text-color" href="gallary.html">Gallary</a></li>
+            <li class="mb-3"><a class="text-color" href="faqs.html">FAQs</a></li>
+          </ul> -->
+        </div>
+        <!-- support -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6  mb-md-0">
+          <h4 class="text-white "><a class="text-primary" href="course-pss.html">Pre-Secondary Scholarship (PSS)</a></h4>
+          <!-- <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="#">Forums</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Documentation</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Language</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Release Status</a></li>
+          </ul> -->
+        </div>
+        <!-- support -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-md-0">
+          <h4 class="text-white"><a class="text-primary" href="course-pss.html">NIOS (National Institute of Open Schooling)</a></h4>
+          <!-- <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="#">WordPress</a></li>
+            <li class="mb-3"><a class="text-color" href="#">LearnPress</a></li>
+            <li class="mb-3"><a class="text-color" href="#">WooCommerce</a></li>
+            <li class="mb-3"><a class="text-color" href="#">bbPress</a></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- copyright -->
+  <div class="copyright py-4 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 text-sm-left text-center">
+          <p class="mb-0">Copyright
+            <script>
+              var CurrentYear = new Date().getFullYear()
+              document.write(CurrentYear)
+            </script> 
+            © Efforts Academy</p>
+        </div>
+        <div class="col-sm-5 text-sm-right text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-facebook text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-twitter-alt text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-linkedin text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
